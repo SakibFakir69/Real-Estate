@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Hero from "./components/Hero";
 import CompanyOverview from "./components/CompanyOverview";
 import OngoingProject from "./components/OngoingProject";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <section className="width-1276 border border-primary mx-auto">
         <CompanyOverview/>
         <OngoingProject/>
+        <Testimonial/>
 
       </section>
 

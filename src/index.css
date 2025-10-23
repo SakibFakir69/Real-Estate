@@ -128,7 +128,9 @@ a{
 .gap-16{
   gap: 16px;
 }
-
+.gap-165{
+  gap: 165px;
+}
 /* button */
 .button-group{
   
@@ -169,6 +171,9 @@ a{
 .mt-n-10{
   margin-top: -10px;
 }
+.mt-top{
+  margin-top: 70px;
+}
 /* gap */
 
 
@@ -191,4 +196,36 @@ a{
 /* slider */
 .slider-height{
   height: 555px;
+}
+.swiper-slider-width{
+  width: 10
+  ;
+
+}
+
+.slider-bottom-box{
+  height: 54px;
+  width: 168px
+}
+.slide-img{
+  width: 325px;
+  height: 212px;
+}
+.slide h2 {
+  width: 100%;
+}
+.box-bottom{
+  bottom: -40px;
+ 
+ 
+}
+.box-bottom-left{
+   left: 85px;
+}
+
+/* qoute  */
+.qoute{
+  font-size: 70px;
+  color: #2BD32A;
+ 
 }
