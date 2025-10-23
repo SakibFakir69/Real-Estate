@@ -2,33 +2,37 @@
 
 
 import React from 'react'
-import { Navbar } from 'react-bootstrap'
+import Navbar from '../shared/navbar'
 
 function Hero() {
   return (
-    <div className=''>
+    <div className='hero-h'>
+        <section className=''>
 
-        <Navbar/>
+            <Navbar/>
+        <section className='d-flex row col-12 gap-5   mt-135 '  >
 
-        <section>
-
-            <div>
+            <div className='d-flex row col-6  gap-4  ' >
+                {/* gap-40px */}
                 {/* text */}
-                <h2 className='fs-1 '>A Home is build  with love  and dreams </h2>
-                <p>Real estate farm that makes your dreams true</p>
+                <h2 className='fs-70 text-white'>A Home is build  with love  and dreams </h2>
+                <p className='fs-24 sub-head-color'>Real estate farm that makes your dreams true</p>
 
-                <div className=' d-flex' style={{height:"65px",width:"392px",gap:"25px"}}>
+                <div className=' d-flex button-group'>
 
-                    <button className='btn-color nav-color' style={{height:"65px",width:"191px", borderRadius:"7px"}}>Our Project</button>
+                    <button className='btn-color nav-color button-1' >Our Project</button>
 
-                    <button className='nav-color  ' style={{border:"none", backgroundColor:"transparent",height:"65px",width:"191px", borderRadius:"7px"}}>Contact us</button>
+                    <button className='nav-color button-2  ' >Contact us</button>
 
                 </div>
             </div>
+            {/* image */}
+            <div className='col-5 '>
 
+                <img className='mt-n-50' src='pexels-binyaminmellish-106399-removebg-preview.png'/>
+            </div>
         </section>
-
-      
+        </section>      
     </div>
   )
 }
