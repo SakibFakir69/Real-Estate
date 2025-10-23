@@ -56,6 +56,9 @@ a{
 .mt-n-50{
   margin-top: -60px;
 }
+.mt-100{
+  margin-top: 100px;
+}
 
 /* main color */
 .main-color{
@@ -67,6 +70,9 @@ a{
 }
 .btn-color{
   background-color: #2BD32A;
+}
+.bg-color{
+  background-color: #0B3D21;
 }
 .color-bg{
   background:#0B3D21;
@@ -104,6 +110,7 @@ a{
 }
 .fs-44{
   font-size: 44px;
+  font-weight: bold;
 }
 /* gap */
 .gap-56{
@@ -114,6 +121,12 @@ a{
 }
 .gap-40{
   gap: 40px;
+}
+.gap-18{
+  gap: 18px;
+}
+.gap-16{
+  gap: 16px;
 }
 
 /* button */
@@ -171,4 +184,11 @@ a{
    font-weight: bold;
   color: white;
 
+}
+
+
+
+/* slider */
+.slider-height{
+  height: 555px;
 }
