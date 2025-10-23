@@ -1,2 +1,53 @@
 
 
+*{
+  list-style: none;
+}
+
+.w-1440{
+  width: 1440px !important;
+}
+a{
+  
+  text-decoration: none !important;
+  
+}
+
+
+.bg-color{
+  background-color:#F3FBF4;
+}
+.mr-ml-80{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/*  */
+.hero-h{
+
+  height: 806px;
+  
+}
+.color-text{
+  color: #2BD32A;
+}
+.btn-color{
+  background-color: #2BD32A;
+}
+.color-bg{
+  background:#0B3D21;
+}
+
+/* navbar */
+
+.nav-color{
+  font-size: 24px;
+  color: white;
+
+}
+.nav-home-color{
+   font-size: 24px;
+   font-weight: bold;
+  color: white;
+
+}
