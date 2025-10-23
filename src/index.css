@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+
+
+.space-grotesk-font {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 
 
 *{
@@ -46,6 +57,11 @@ a{
   margin-top: -60px;
 }
 
+/* main color */
+.main-color{
+  background-color: #F3FBF4;
+}
+
 .color-text{
   color: #2BD32A;
 }
@@ -55,6 +71,19 @@ a{
 .color-bg{
   background:#0B3D21;
 }
+.company-img{
+  width: 542px;
+  height: 398px;
+}
+/* compnay text */
+.company-text{
+  width: 561px;
+  height: 467px;
+}
+.company-box-height{
+  height: 467px;
+}
+
 
 .fs-70{
   font-size: 70px;
@@ -62,12 +91,29 @@ a{
 }
 .fs-24{
   font-size: 24px;
-  font-weight: 600;
+ 
 }
+.fs-34{
+  font-size: 34px;
 
+}
+.fs-24{
+  font-size: 24px;
+  font-weight: 500;
+
+}
+.fs-44{
+  font-size: 44px;
+}
 /* gap */
-gap-56{
+.gap-56{
   gap: 56px;
+}
+.gap-174{
+  gap:174px;
+}
+.gap-40{
+  gap: 40px;
 }
 
 /* button */
@@ -96,13 +142,20 @@ gap-56{
   color: #CFDEE9;
 }
 
+/* company title */
+
 
 /* margin */
 
 .m-n-top{
   margin-top: -60px;
 }
-
+.mt-98{
+  margin-top: 98px;
+}
+.mt-n-10{
+  margin-top: -10px;
+}
 /* gap */
 
 

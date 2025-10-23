@@ -1,14 +1,13 @@
 
 
 
-import React from 'react'
+
 import Navbar from '../shared/navbar'
 
 function Hero() {
   return (
-    <div className='hero-h'>
+    <div className='hero-h border border-red'>
         <section className=''>
-
             <Navbar/>
         <section className='d-flex row col-12 gap-5   mt-135 '  >
 
