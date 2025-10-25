@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import CompanyOverview from "./components/CompanyOverview";
 import OngoingProject from "./components/OngoingProject";
 import Testimonial from "./components/Testimonial";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <CompanyOverview/>
         <OngoingProject/>
         <Testimonial/>
+        <ContactUs/>
 
       </section>
 
