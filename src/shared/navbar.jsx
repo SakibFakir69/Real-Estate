@@ -2,7 +2,7 @@
 
 function Navbar() {
   return (
-    <nav className="d-flex justify-content-between  text-white mt-82" >
+    <nav className="d-flex justify-content-between  text-white mt-96" style={{marginTop:"96px"}} >
       <div>
         <h3 className="fs-1 fw-bold" >Company</h3>
       </div>

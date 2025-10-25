@@ -17,7 +17,7 @@ function Hero() {
                 <h2 className='fs-70 text-white'>A Home is build  with love  and dreams </h2>
                 <p className='fs-24 sub-head-color'>Real estate farm that makes your dreams true</p>
 
-                <div className=' d-flex button-group'>
+                <div className=' d-flex button-group' >
 
                     <button className='btn-color nav-color button-1' >Our Project</button>
 

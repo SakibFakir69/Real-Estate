@@ -12,7 +12,6 @@ function Footer() {
           <p className="footer-p">+170345435</p>
           <p className="footer-p">Sakib@gmail.com</p>
         </div>
-
         <div className="col-4  d-flex gap-31 flex-column  align-items-center">
           <h1 className="fs-36 fw-normal">Services</h1>
 
@@ -23,11 +22,8 @@ function Footer() {
             <p className="footer-p">Design</p>
           </div>
         </div>
-
         <div className="col-4  d-flex gap-31 flex-column " >
-
           <h1 className="fs-36 text-end fw-normal">Social Media</h1>
-
           <div className="text-center " >
             <p className="footer-p">Facebook</p>
             <p className="footer-p" style={{marginRight:"50px"}}>X</p>

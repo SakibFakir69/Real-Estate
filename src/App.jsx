@@ -8,7 +8,7 @@ import Footer from "./shared/footer";
 
 function App() {
   return (
-    <div className="border main-color">
+    <div className=" main-color">
 
       <section className="color-bg">
         <section className="width-1276 border border-primary mx-auto ">

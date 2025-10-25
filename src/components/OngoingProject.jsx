@@ -1,41 +1,113 @@
 import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
+import { Navigation } from "swiper/modules";
 import "swiper/css";
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/navigation";
+import { BiArrowFromLeft, BiLeftArrow, BiRightArrow } from "react-icons/bi";
+import { SlArrowLeft } from "react-icons/sl";
 
 function OngoingProject() {
   return (
-    <div className="slider-height mt-82 bg-color">
-      <section className="d-flex flex-column gap-40">
+    <div className="  bg-color  p-4" style={{ marginTop: "96px" }}>
+      <section
+        className="d-flex flex-column"
+        style={{ paddingTop: "100px", paddingBottom: "100px" }}
+      >
         {/* text */}
 
-        <div className="d-flex gap-16 mt-100 text-center d-flex flex-column gap-16">
+        <div className="d-flex gap-16 text-center d-flex flex-column gap-16">
           <h2 className="text-white fs-44">Ongoing projects</h2>
           <p className="fs-24 sub-head-color fs-24">
             Turpis facilisis tempor pulvinar in lobortis ornare magna.
           </p>
         </div>
         {/* slider */}
-        <div className="">
-          <Swiper
-            spaceBetween={0}
-            slidesPerView={3}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
-            className="swiper-slider-width"
-          >
-            <SwiperSlide>
-                opjm
-            </SwiperSlide>
-          </Swiper>
+
+        <div className="d-flex align-content-center justify-content-center" style={{marginTop:"40px"}}>
+          <SlArrowLeft size={50} color="white"  style={{marginTop:"60px",marginRight:"10px"}} />
+
+        
+
+          
+
+          <div className="" style={{ height: "212px" }}>
+            <Swiper
+              modules={[Navigation]}
+              spaceBetween={0}
+              slidesPerView={3}
+              navigation={true}
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+              className="swiper-slider-width"
+              style={{ marginTop: "-20px" }}
+            >
+              <SwiperSlide
+                className="position-relative "
+                style={{ overflow: "visible", height: "209px",marginRight:"50px" }}
+              >
+                <div>
+                  <img
+                    src="pexels-pixabay-53610 1.png"
+                    className="img-fluid  slider-img"
+                    alt="Vintage Village"
+                  />
+                </div>
+
+                {/* box */}
+                <div className="text-center border btn-color position-absolute d-flex flex-column justify-content-center align-items-center rounded slider-img-box">
+                  <h2 className="fs-24 text-white m-0">Vintage Village</h2>
+                  <p className=" m-0 sub-head-color">Dhaka</p>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide
+                className="position-relative "
+                style={{ overflow: "visible", height: "209px" }}
+              >
+                <div>
+                  <img
+                    src="pexels-pixabay-53610 1.png"
+                    className="img-fluid  slider-img"
+                    alt="Vintage Village"
+                  />
+                </div>
+
+                {/* box */}
+                <div className="text-center border btn-color position-absolute d-flex flex-column justify-content-center align-items-center rounded  slider-img-box">
+                  <h2 className="fs-24 text-white m-0">Vintage Village</h2>
+                  <p className=" m-0 sub-head-color">Dhaka</p>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide
+                className="position-relative "
+                style={{ overflow: "visible", height: "209px" }}
+              >
+                <div>
+                  <img
+                    src="pexels-pixabay-53610 1.png"
+                    className="img-fluid  slider-img"
+                    alt="Vintage Village"
+                  />
+                </div>
+
+                {/* box */}
+                <div className="text-center border btn-color position-absolute d-flex flex-column justify-content-center align-items-center rounded  slider-img-box">
+                  <h2 className="fs-24 text-white m-0">Vintage Village</h2>
+                  <p className=" m-0 sub-head-color">Dhaka</p>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
+
+           <SlArrowLeft size={50}  color="white"  style={{marginTop:"60px",rotate:"180deg"}}/>
+        
         </div>
       </section>
     </div>

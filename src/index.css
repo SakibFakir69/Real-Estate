@@ -52,7 +52,9 @@ a{
 .mt-97{
   margin-top: 97px;
 }
-
+.mt-20{
+  margin-top: 40px;
+}
 .mt-135{
   margin-top: 135px !important;
 }
@@ -184,7 +186,7 @@ a{
   margin-top: 70px;
 }
 .m-b-32{
-  margin-bottom: ;
+  margin-bottom: 32px;
 }
 /* gap */
 
@@ -286,4 +288,30 @@ a{
 
 .footer-p{
   color: #254B59;
+}
+
+.slider-img{
+  /* style={{width:"321px",height:"209px"}} */
+  width: 325px !important ;
+
+}
+.swiper {
+  overflow: visible !important;
+}
+.slider-img-box{
+  /* style={{
+                  height: "54px",
+                  width: "190px",
+                  bottom: "-70px", 
+                  left: "50%",
+                  transform: "translateX(-50%)",
+                  zIndex:"40px"
+                }} */
+
+                height: 54px;
+                width: 190px;
+                bottom: -50px;
+                left: 18%;
+                transform: translateY(-50%);
+                z-index: 40px;
 }

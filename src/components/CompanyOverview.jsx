@@ -6,12 +6,14 @@ import "swiper/css";
 
 function CompanyOverview() {
   return (
-    <div className="mt-98 company-box-height ">
+    <div className=" company-box-height " style={{marginTop:"96px"}}>
+
       <section className="d-flex gap-174 ">
 
-        <div className="">
+        <div className="" style={{height:"467px"}}>
           <img
-            className="company-img"
+            className="company-img h-100"
+
             src="pexels-olga-neptuna-1090543-2078774 1.png"
           />
         </div>
