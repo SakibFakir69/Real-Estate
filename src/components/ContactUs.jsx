@@ -12,8 +12,9 @@ function ContactUs() {
         </div>
 
         <div
-          className="d-flex flex-column align-content-center justify-content-center  "
-          style={{ marginLeft: "65px", marginRight: "65px" }}
+          className="d-flex flex-column align-content-center justify-content-center  contact-m-l-r "
+
+
         >
           <div className="container mt-3">
             <div className="row g-4" >
@@ -56,14 +57,8 @@ function ContactUs() {
 
             <div className="d-flex justify-content-center mt-4 mb-5">
               <button
-                className="btn-color text-white fs-24"
-                style={{
-                  width: "100%",
-                  maxWidth: "583px",
-                  height: "79px",
-                  borderRadius: "8px",
-                  marginBottom:"97px",
-                }}
+                className="btn-color text-white fs-24 contact-button"
+
               >
                 Send Message
               </button>

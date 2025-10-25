@@ -4,6 +4,7 @@ import CompanyOverview from "./components/CompanyOverview";
 import OngoingProject from "./components/OngoingProject";
 import Testimonial from "./components/Testimonial";
 import ContactUs from "./components/ContactUs";
+import Footer from "./shared/footer";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <OngoingProject/>
         <Testimonial/>
         <ContactUs/>
+        <Footer/>
+      
 
       </section>
 

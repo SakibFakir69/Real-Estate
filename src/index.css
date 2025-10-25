@@ -49,6 +49,9 @@ a{
 .mt-82{
   margin-top: 82px;
 }
+.mt-97{
+  margin-top: 97px;
+}
 
 .mt-135{
   margin-top: 135px !important;
@@ -110,6 +113,9 @@ a{
   font-size: 24px;
   font-weight: 500;
 
+}
+.fs{
+  font-size: 36px;
 }
 .fs-44{
   font-size: 44px;
@@ -176,6 +182,9 @@ a{
 }
 .mt-top{
   margin-top: 70px;
+}
+.m-b-32{
+  margin-bottom: ;
 }
 /* gap */
 
@@ -259,4 +268,22 @@ a{
 .br-8{
   border-radius: 8px;
 
+}
+.contact-m-l-r{
+  /*    style={{ marginLeft: "65px", marginRight: "65px" }} */
+  margin-left: 65px;
+  margin-right: 65px;
+
+}
+.contact-button{
+ 
+                 width: 100%;
+                 max-width: 583px;
+                 height: 79px;
+                 border-radius: 8px;
+                 margin-bottom: 97px;
+}
+
+.footer-p{
+  color: #254B59;
 }
