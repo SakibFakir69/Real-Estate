@@ -4,29 +4,45 @@ import CompanyOverview from "./components/CompanyOverview";
 import OngoingProject from "./components/OngoingProject";
 import Testimonial from "./components/Testimonial";
 import ContactUs from "./components/ContactUs";
-import Footer from "./shared/footer";
+import Footer from "././shared/Footer";
 
+//  <section className="width-1276  border border-primary mx-auto ">
+//           <Hero />
+//         </section>
+
+// <section className=" border border-primary mx-auto">
+//   <CompanyOverview/>
+//   <OngoingProject/>
+//   <Testimonial/>
+//   <ContactUs/>
+//   <Footer/>
+
+// </section>
 function App() {
   return (
     <div className=" main-color">
+      <div className="   mx-auto">
 
-      <section className="color-bg">
-        <section className="width-1276 border border-primary mx-auto ">
-          <Hero />
-        </section>
-      </section>
+        <div className="main-color mx-auto" >
 
-      <section className="width-1276 border border-primary mx-auto">
-        <CompanyOverview/>
-        <OngoingProject/>
-        <Testimonial/>
-        <ContactUs/>
-        <Footer/>
-      
+          <section className="bg-color ">
+            <Hero />
+          </section>
 
-      </section>
+         <div className="margin-on-app" 
+
+         >
+
+           <CompanyOverview />
+          <OngoingProject />
+          <Testimonial />
+          <ContactUs />
+          <Footer />
+         </div>
 
 
+        </div>
+      </div>
     </div>
   );
 }

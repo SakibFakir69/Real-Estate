@@ -6,15 +6,18 @@ import Navbar from '../shared/navbar'
 
 function Hero() {
   return (
-    <div className='hero-h border border-red'>
-        <section className=''>
-            <Navbar/>
-        <section className='d-flex row col-12 gap-5   mt-135 '  >
+    <div className='hero-h '   >
 
-            <div className='d-flex row col-6  gap-4  ' >
+        <section className='hero-box'>
+           
+            <Navbar/>
+
+        <section className='d-flex row col-12 gap-5   mt-md-5' >
+
+            <div className='d-flex row col-lg-6  col-12 gap-4 mt-5 ml-10 '  >
                 {/* gap-40px */}
                 {/* text */}
-                <h2 className='fs-70 text-white'>A Home is build  with love  and dreams </h2>
+                <h2 className='fs-70 text-white' >A Home is build  with love  and dreams </h2>
                 <p className='fs-24 sub-head-color'>Real estate farm that makes your dreams true</p>
 
                 <div className=' d-flex button-group' >
@@ -26,7 +29,7 @@ function Hero() {
                 </div>
             </div>
             {/* image */}
-            <div className='col-5 d-none  d-md-block '>
+            <div className='col-5 d-none  d-lg-block '>
 
                 <img className='mt-n-50' src='pexels-binyaminmellish-106399-removebg-preview.png'/>
             </div>

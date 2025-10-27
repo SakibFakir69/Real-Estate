@@ -15,6 +15,7 @@ function ContactUs() {
           className="d-flex flex-column align-content-center justify-content-center  contact-m-l-r "
         >
           <div className="container mt-3">
+            
             <div className="row gx-4 " style={{rowGap:"18px"}} >
 
               <div className="col-md-6">
@@ -48,7 +49,7 @@ function ContactUs() {
               <div className="col-12">
                 <input
                   placeholder="Enter your message"
-                  className="form-control bg-transparent input-message text-white fs-24 "
+                  className="form-control bg-transparent input-message text-white fs-24  "
                 ></input>
               </div>
             </div>

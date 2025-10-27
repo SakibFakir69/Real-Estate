@@ -5,24 +5,25 @@
 function Testimonial() {
   return (
     <div className='mt-97 '>
+
         <section>
-            <div className='d-flex flex-column gap-16 text-center'>
+            <div className='md-flex flex-column gap-16 text-center'>
 
                 <h2 className='text-black fs-md-44 fs-40'>Few smiles and comment</h2>
 
                 <p className='fs-md-24 fs-20'>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
             </div>
             {/* box */}
-            <div className='gap-165 d-flex mt-top'>
+            <div className='gap-165 d-lg-flex mt-top'>
 
-                <div >
-                    <img style={{width:"620px",height:"420px"}} 
+                <div className="align-content-center mx-auto">
+                    <img 
                     className="testimonal-img"
                     src='pexels-juanpphotoandvideo-1139743 1.png'/>
 
                 </div>
 
-                <div className='d-flex flex-column borde gap-40 '>
+                <div className='d-flex flex-column borde t-gap-40 text-center align-content-sm-center mx-auto' style={{width:"90%"}}>
 
                     <h2 className='fs-36 text-black fw-bold flex-column d-flex gap-3'>
 
