@@ -26,7 +26,7 @@ function Hero() {
                 </div>
             </div>
             {/* image */}
-            <div className='col-5 '>
+            <div className='col-5 d-none  d-md-block '>
 
                 <img className='mt-n-50' src='pexels-binyaminmellish-106399-removebg-preview.png'/>
             </div>

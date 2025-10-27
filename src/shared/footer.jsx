@@ -3,8 +3,12 @@ import React from "react";
 function Footer() {
   return (
     <div className="mt-97">
-      <section className="row d-flex justify-content-around ">
-        <div className="col-4  d-flex gap-31 flex-column">
+
+      <section className="row d-flex col-12  justify-content-md-around ">
+
+
+        <div className="col-md-4 col-12  d-flex gap-31 flex-column text-center">
+          
           <h1 className="fs-36 fw-bold">Company</h1>
 
           <p className="footer-p">Dhaka, 1203, Mirpur</p>
@@ -12,21 +16,22 @@ function Footer() {
           <p className="footer-p">+170345435</p>
           <p className="footer-p">Sakib@gmail.com</p>
         </div>
-        <div className="col-4  d-flex gap-31 flex-column  align-items-center">
+        <div className="col-md-4 col-12  d-flex gap-31 flex-column  align-items-center">
           <h1 className="fs-36 fw-normal">Services</h1>
 
-          <div className="" style={{marginRight:"90px"}} >
+          <div className=""  >
 
             <p className="footer-p">Building</p>
             <p className="footer-p">Conslting</p>
             <p className="footer-p">Design</p>
           </div>
         </div>
-        <div className="col-4  d-flex gap-31 flex-column " >
-          <h1 className="fs-36 text-end fw-normal">Social Media</h1>
+
+        <div className="col-md-4  col-12 d-flex gap-31 flex-column " >
+          <h1 className="fs-36 md-text-end text-center fw-normal">Social Media</h1>
           <div className="text-center " >
             <p className="footer-p">Facebook</p>
-            <p className="footer-p" style={{marginRight:"50px"}}>X</p>
+            <p className="footer-p" >X</p>
             <p className="footer-p">Linkedin</p>
           </div>
 

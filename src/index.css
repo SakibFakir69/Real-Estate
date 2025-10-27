@@ -98,6 +98,14 @@ a{
   height: 467px;
 }
 
+@media (max-width:768px) {
+  .company-img{
+  width: 532px;
+  height: 388px;
+  margin-left: 10px;
+}
+  
+}
 
 .fs-70{
   font-size: 70px;
@@ -106,6 +114,18 @@ a{
 .fs-24{
   font-size: 24px;
  
+}
+
+@media (max-width:768px) {
+  .fs-70{
+  font-size: 60px;
+  font-weight: bold;
+}
+.fs-24{
+  font-size: 20px;
+ 
+}
+  
 }
 .fs-34{
   font-size: 34px;
@@ -123,6 +143,26 @@ a{
   font-size: 44px;
   font-weight: bold;
 }
+
+
+@media (max-width:768px) {
+  .fs-44{
+    font-size: 40px;
+    font-weight: bold;
+
+  }
+  .fs-20{
+    font-size: 20px;
+
+  }
+  .fs-34{
+  font-size: 30px;
+
+}
+  
+  
+}
+
 /* gap */
 .gap-56{
   gap: 56px;
@@ -142,6 +182,18 @@ a{
 .gap-165{
   gap: 165px;
 }
+
+@media (max-width:768px) {
+  .gap-165{
+  gap: 100px;
+}
+.gap-174{
+  gap:150px;
+}
+  
+}
+
+
 /* button */
 .button-group{
   
@@ -314,4 +366,25 @@ a{
                 left: 18%;
                 transform: translateY(-50%);
                 z-index: 40px;
+}
+
+/* testimonail image */
+
+.testimonal-img{
+  /* style={{width:"620px",height:"420px"}}  */
+  width: 620px;
+  height: 420px;
+
+}
+@media (max-width:768px) {
+  .testimonal-img{
+  
+  width: 600px;
+  height: 400px;
+  margin-left: 10px;
+
+}
+  
+
+  
 }

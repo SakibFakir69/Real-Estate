@@ -4,17 +4,21 @@
 
 function Testimonial() {
   return (
-    <div className='mt-97   '>
+    <div className='mt-97 '>
         <section>
             <div className='d-flex flex-column gap-16 text-center'>
-                <h2 className='text-black fs-44'>Few smiles and comment</h2>
-                <p className='fs-24'>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
+
+                <h2 className='text-black fs-md-44 fs-40'>Few smiles and comment</h2>
+
+                <p className='fs-md-24 fs-20'>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
             </div>
             {/* box */}
             <div className='gap-165 d-flex mt-top'>
 
                 <div >
-                    <img style={{width:"620px",height:"420px"}} src='pexels-juanpphotoandvideo-1139743 1.png'/>
+                    <img style={{width:"620px",height:"420px"}} 
+                    className="testimonal-img"
+                    src='pexels-juanpphotoandvideo-1139743 1.png'/>
 
                 </div>
 
